@@ -7,8 +7,8 @@ import android.os.AsyncTask;
  */
 public class YahooWeatherService {
     private WeatherServiceCallback callback;
-
     private String location;
+    private Exception error;
 
     public YahooWeatherService(WeatherServiceCallback callback) {
         this.callback = callback;
