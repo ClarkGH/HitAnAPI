@@ -5,9 +5,6 @@ import org.json.JSONObject;
 /**
  * Created by clarkhinchcliff on 4/20/16.
  */
-public class Channel implements JSONPopulator {
-    @Override
-    public void populate(JSONObject data) {
-
-    }
+public interface JSONPopulator {
+    void populate(JSONObject data);
 }
