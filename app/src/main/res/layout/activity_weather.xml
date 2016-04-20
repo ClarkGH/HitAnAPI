@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Temperature"
+        android:text="@string/Temperature"
         android:id="@+id/temperatureTextView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -22,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Condition"
+        android:text="@string/Condition"
         android:id="@+id/conditionTextView"
         android:layout_below="@+id/temperatureTextView"
         android:layout_centerHorizontal="true" />
@@ -31,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Weather"
+        android:text="@string/Weather"
         android:id="@+id/weatherTextView"
         android:layout_below="@+id/conditionTextView"
         android:layout_centerHorizontal="true" />
